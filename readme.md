@@ -14,7 +14,7 @@ Put together by me but the commands are from the links on the bottom.<br><br>
 
 - `cd` to repo
 - backup `.git`: `cp .git .git.bak`
-- `curl -o git-nuke http://link`
+- `curl -o git-nuke https://raw.githubusercontent.com/Thomazella/git-nuke/master/main.bash`
 - `chmod u+x git-nuke`
 - `./git-nuke file-to-nuke`
 
