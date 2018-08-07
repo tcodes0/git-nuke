@@ -23,7 +23,7 @@ To automate nuking a list of files:
 - get file names by copying
 - paste in a file, `list.txt`, one filename per line
 - add a newline at the end of the file, just to be safe
-- run `while read -r file; do ./git-nuke $file; done < list.txt`
+- run `while read -r file; do ./git-nuke "$file"; done < list.txt`
 
 ### Sources:
 
